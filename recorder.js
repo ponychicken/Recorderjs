@@ -1,6 +1,6 @@
 (function(window){
 
-  var WORKER_PATH = 'recorderWorker.js';
+  var WORKER_PATH = 'https://rawgit.com/mattdiamond/Recorderjs/master/recorderWorker.js';
 
   var Recorder = function(source, cfg){
     var config = cfg || {};
